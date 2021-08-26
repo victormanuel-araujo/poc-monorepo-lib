@@ -1,0 +1,611 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating component should render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+  testID="rating-container"
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-0"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-0"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-1"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-1"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-2"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-2"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-3"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-3"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-4"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-4"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Rating component should render correctly with decimal numbers 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      },
+    ]
+  }
+  testID="rating-container"
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-0"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-0"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-1"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-1"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-2"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-2"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-3"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-3"
+      >
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="rating-button-4"
+  >
+    <View
+      background="transparent"
+      shape="round"
+      size={20}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#00000000",
+            "borderRadius": 28,
+            "display": "flex",
+            "height": 28,
+            "justifyContent": "center",
+            "width": 28,
+          },
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        style={
+          Array [
+            Object {
+              "color": "#FFBC11",
+              "fontSize": 20,
+            },
+            undefined,
+            Object {
+              "fontFamily": "Material Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+        testID="rating-icon-4"
+      >
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;

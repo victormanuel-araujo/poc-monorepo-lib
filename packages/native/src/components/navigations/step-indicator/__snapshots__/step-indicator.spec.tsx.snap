@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step Indicator Component should render correctly 1`] = `
+<View
+  backgroundShade="base"
+  dir="row"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "auto",
+    }
+  }
+  testID="view"
+  width="auto"
+>
+  <View
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 10,
+        "top": 10,
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "position": "relative",
+      }
+    }
+    testID="step-dot"
+  >
+    <View
+      backgroundShade="base"
+      dir="column"
+      display="flex"
+      paddingLeft={0}
+      paddingRight={4}
+      position="relative"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "paddingRight": 4,
+          "paddingTop": 0,
+          "position": "relative",
+          "width": "auto",
+        }
+      }
+      testID="view"
+      width="auto"
+    >
+      <View
+        backgroundShade="base"
+        color="secondary"
+        dir="column"
+        display="flex"
+        inactiveOpacity={0.24}
+        isActive={true}
+        position="relative"
+        size={8}
+        style={
+          Object {
+            "backgroundColor": "#7D38DB",
+            "borderRadius": 4,
+            "display": "flex",
+            "flexDirection": "column",
+            "height": 8,
+            "opacity": 1,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "position": "relative",
+            "width": 8,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 10,
+        "top": 10,
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "position": "relative",
+      }
+    }
+    testID="step-dot"
+  >
+    <View
+      backgroundShade="base"
+      dir="column"
+      display="flex"
+      paddingLeft={4}
+      paddingRight={4}
+      position="relative"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "paddingBottom": 0,
+          "paddingLeft": 4,
+          "paddingRight": 4,
+          "paddingTop": 0,
+          "position": "relative",
+          "width": "auto",
+        }
+      }
+      testID="view"
+      width="auto"
+    >
+      <View
+        backgroundShade="base"
+        color="secondary"
+        dir="column"
+        display="flex"
+        inactiveOpacity={0.24}
+        isActive={false}
+        position="relative"
+        size={8}
+        style={
+          Object {
+            "backgroundColor": "#7D38DB",
+            "borderRadius": 4,
+            "display": "flex",
+            "flexDirection": "column",
+            "height": 8,
+            "opacity": 0.24,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "position": "relative",
+            "width": 8,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 10,
+        "top": 10,
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+        "position": "relative",
+      }
+    }
+    testID="step-dot"
+  >
+    <View
+      backgroundShade="base"
+      dir="column"
+      display="flex"
+      paddingLeft={4}
+      paddingRight={0}
+      position="relative"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+          "paddingBottom": 0,
+          "paddingLeft": 4,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "position": "relative",
+          "width": "auto",
+        }
+      }
+      testID="view"
+      width="auto"
+    >
+      <View
+        backgroundShade="base"
+        color="secondary"
+        dir="column"
+        display="flex"
+        inactiveOpacity={0.24}
+        isActive={false}
+        position="relative"
+        size={8}
+        style={
+          Object {
+            "backgroundColor": "#7D38DB",
+            "borderRadius": 4,
+            "display": "flex",
+            "flexDirection": "column",
+            "height": 8,
+            "opacity": 0.24,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "position": "relative",
+            "width": 8,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

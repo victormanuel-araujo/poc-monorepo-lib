@@ -1,0 +1,941 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render correctly 1`] = `
+<View
+  accessibilityRole="header"
+  backgroundColor="white"
+  backgroundShade="base"
+  dir="column"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="left-action"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    flex={1}
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    testID="view"
+  >
+    <Text
+      accessibilityRole="text"
+      align="center"
+      color="black"
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Raleway",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 24,
+          "textAlign": "center",
+        }
+      }
+      type="description"
+      weight="bold"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="right-action"
+    />
+  </View>
+</View>
+`;
+
+exports[`Header Component should render the left adornment correctly 1`] = `
+<View
+  accessibilityRole="header"
+  backgroundColor="white"
+  backgroundShade="base"
+  dir="column"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="left-action"
+    >
+      <View
+        shape="none"
+        size={20}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+              "width": 28,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    flex={1}
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    testID="view"
+  >
+    <Text
+      accessibilityRole="text"
+      align="center"
+      color="black"
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Raleway",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 24,
+          "textAlign": "center",
+        }
+      }
+      type="description"
+      weight="bold"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="right-action"
+    />
+  </View>
+</View>
+`;
+
+exports[`Header Component should render the right adornment correctly 1`] = `
+<View
+  accessibilityRole="header"
+  backgroundColor="white"
+  backgroundShade="base"
+  dir="column"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="left-action"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    flex={1}
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    testID="view"
+  >
+    <Text
+      accessibilityRole="text"
+      align="center"
+      color="black"
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Raleway",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 24,
+          "textAlign": "center",
+        }
+      }
+      type="description"
+      weight="bold"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="right-action"
+    >
+      <View
+        shape="none"
+        size={20}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+              "width": 28,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Header Component should to render the right and left adornment correctly with their props 1`] = `
+<View
+  accessibilityRole="header"
+  backgroundColor="white"
+  backgroundShade="base"
+  dir="column"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    spacing="xl"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 32,
+        "paddingLeft": 32,
+        "paddingRight": 32,
+        "paddingTop": 32,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="left-action"
+    >
+      <View
+        shape="none"
+        size={20}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+              "width": 28,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    flex={1}
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    testID="view"
+  >
+    <Text
+      accessibilityRole="text"
+      align="center"
+      color="black"
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      style={
+        Object {
+          "color": "#000000",
+          "fontFamily": "Raleway",
+          "fontSize": 16,
+          "fontWeight": "700",
+          "lineHeight": 24,
+          "textAlign": "center",
+        }
+      }
+      type="description"
+      weight="bold"
+    />
+  </View>
+  <View
+    background="red"
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    spacing="sm"
+    style={
+      Object {
+        "backgroundColor": "#DB4446",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="right-action"
+    >
+      <View
+        shape="none"
+        size={20}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "height": 28,
+              "justifyContent": "center",
+              "width": 28,
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontSize": 20,
+              },
+              undefined,
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Header Component should to render the title correctly with it props 1`] = `
+<View
+  accessibilityRole="header"
+  backgroundColor="white"
+  backgroundShade="base"
+  dir="column"
+  display="flex"
+  position="relative"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFFFFF",
+      "display": "flex",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "minHeight": 60,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="left-action"
+    />
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    flex={1}
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+    testID="view"
+  >
+    <Text
+      accessibilityRole="text"
+      align="center"
+      color="red"
+      ellipsizeMode="tail"
+      numberOfLines={1}
+      size="sm"
+      style={
+        Object {
+          "color": "#DB4446",
+          "fontFamily": "Raleway",
+          "fontSize": 12,
+          "fontWeight": "700",
+          "lineHeight": 18,
+          "textAlign": "center",
+        }
+      }
+      type="description"
+      weight="bold"
+    >
+      Lorem Ipsum
+    </Text>
+  </View>
+  <View
+    backgroundShade="base"
+    dir="column"
+    display="flex"
+    position="relative"
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "column",
+        "height": 60,
+        "minWidth": 50,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "paddingTop": 0,
+        "position": "relative",
+        "width": "auto",
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 60,
+          "justifyContent": "center",
+          "minWidth": 50,
+          "opacity": 1,
+          "width": "auto",
+        }
+      }
+      testID="right-action"
+    />
+  </View>
+</View>
+`;

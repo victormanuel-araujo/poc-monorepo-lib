@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton component should render the component correctly 1`] = `
+<View
+  backgroundColor="gray"
+  backgroundShade="lighter"
+  customBorderRadius={0}
+  dir="column"
+  display="flex"
+  height={80}
+  onLayout={[Function]}
+  position="relative"
+  style={
+    Object {
+      "backgroundColor": "#E0E0E0",
+      "borderColor": "#E0E0E000",
+      "borderRadius": 0,
+      "borderStyle": "solid",
+      "borderWidth": 1,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 80,
+      "overflow": "hidden",
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+  testID="skeleton-comp"
+  width="100%"
+>
+  <LinearGradient
+    colors={
+      Array [
+        "transparent",
+        "rgba(240, 240, 240, 120.0)",
+        "rgba(240, 240, 240, 120.0)",
+        "rgba(240, 240, 240, 176.0)",
+        "transparent",
+      ]
+    }
+    direction="ltr"
+    end={
+      Object {
+        "x": 1,
+        "y": 1,
+      }
+    }
+    height={80}
+    locations={
+      Array [
+        0,
+        0.25,
+        0.6,
+        0.85,
+        1,
+      ]
+    }
+    start={
+      Object {
+        "x": 0,
+        "y": 1,
+      }
+    }
+    style={
+      Object {
+        "height": 80,
+        "position": "absolute",
+        "top": 0,
+        "transform": Array [
+          Object {
+            "translateX": 0,
+          },
+        ],
+        "width": 160,
+      }
+    }
+    testID="skeleton-gradient-comp"
+    width={160}
+  />
+</View>
+`;
