@@ -1,0 +1,15 @@
+# Directories
+.storybook/
+assets/
+src/
+node_modules/
+
+# Files
+babel.config.js
+.prettierrc
+.stylelint
+.eslintrc.js
+.eslintignore
+.editorconfig
+.npmrc
+.tsconfig.json
