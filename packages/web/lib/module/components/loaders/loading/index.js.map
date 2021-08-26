@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.ts"],"names":["default","Loading"],"mappings":"AAAA,SAASA,OAAO,IAAIC,OAApB","sourcesContent":["export { default as Loading } from './loading.comp'\n"]}
