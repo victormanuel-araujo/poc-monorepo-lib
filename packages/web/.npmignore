@@ -7,9 +7,9 @@ node_modules/
 # Files
 babel.config.js
 .prettierrc
-.stylelint
+.stylelintrc
 .eslintrc.js
 .eslintignore
 .editorconfig
 .npmrc
-.tsconfig.json
+tsconfig.json

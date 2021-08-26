@@ -1,5 +1,5 @@
 {
-  "name": "poc-monorepo-lib",
+  "name": "@monorepo-lib",
   "version": "1.0.0",
   "description": "",
   "private": true,
