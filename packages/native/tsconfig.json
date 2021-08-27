@@ -12,15 +12,14 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "esnext",
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "@gama-academy/smash": ["index"],
-      "@components": ["components/index"],
-      "@theme": ["theme/index"],
-      "@utils": ["utils/index"]
+      "@components": ["src/components/index"],
+      "@theme": ["../common/theme"],
+      "@utils": ["src/utils/index"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "../common"],
   "exclude": [
     "lib",
     "example",

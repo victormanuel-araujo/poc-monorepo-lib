@@ -1,8 +1,7 @@
 import React from 'react'
 
-import { Text, View } from '@components'
 import { getThemeColor, Theme, ThemeColorsName } from '@theme'
-import { ActivityIndicator, GestureResponderEvent } from 'react-native'
+import { ActivityIndicator, GestureResponderEvent, Text, View } from 'react-native'
 import { ThemeContext } from 'styled-components/native'
 
 import { ButtonChildrenContent, ButtonContent, ButtonLoadingContent, StyledTouchableOpacity } from './button.styles'
@@ -97,7 +96,7 @@ export const Button: React.FC<ButtonProps> = ({
   }
 
   return (
-    <View width={fluid ? '100%' : 'auto'} dir="row">
+    <View style={{ width: fluid ? '100%' : 'auto', flexDirection: "row" }}>
       <StyledTouchableOpacity
         disabled={disabled}
         fluid={fluid}
