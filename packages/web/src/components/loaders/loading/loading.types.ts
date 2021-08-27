@@ -1,4 +1,3 @@
-import { ThemeColorsName } from '@theme'
 
 export interface LoadingProps {
   /**
@@ -20,5 +19,5 @@ export interface LoadingProps {
    *
    * @default `primary`
    */
-  color: ThemeColorsName
+  color: any
 }

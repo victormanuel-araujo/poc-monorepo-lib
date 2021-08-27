@@ -22,7 +22,7 @@ import { ThemeColorsGroup } from './theme.types'
  */
 export const colors: ThemeColorsGroup = {
   primary: {
-    base: '#7BE26E' as '#7BE26E',
+    base: '#FF8C00' as '#FF8C00',
   },
   secondary: {
     base: '#7D38DB' as '#7D38DB',

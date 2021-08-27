@@ -12,11 +12,11 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "esnext",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@components": ["components/index"],
-      "@theme": ["theme/index"],
-      "@utils": ["utils/index"]
+      "@components": ["./src/components/index"],
+      "@utils": ["./src/utils/index"],
+      "@theme": ["../common/theme/index"],
     }
   },
   "include": ["./src"],

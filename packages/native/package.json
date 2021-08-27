@@ -41,11 +41,12 @@
     ]
   },
   "dependencies": {
+    "common": "^0.2.5",
     "lodash": "^4.17.21",
     "react-native-linear-gradient": "^2.5.6",
     "react-native-svg": "^12.1.1-0",
     "react-native-vector-icons": "^8.1.0",
-    "styled-components": "*"
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "~7.13.10",
@@ -54,8 +55,8 @@
     "@babel/preset-typescript": "^7.15.0",
     "@storybook/addon-actions": "^6.2.3",
     "@storybook/addon-controls": "^6.2.3",
-    "@storybook/addon-docs": "^6.2.3",
-    "@storybook/addon-essentials": "^6.2.3",
+    "@storybook/addon-docs": "^6.1.21",
+    "@storybook/addon-essentials": "^6.3.7",
     "@storybook/addon-links": "^6.2.3",
     "@storybook/node-logger": "^6.2.3",
     "@storybook/preset-create-react-app": "^3.1.7",
@@ -75,7 +76,7 @@
     "file-loader": "^6.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-native": "0.64.0",
+    "react-native": "^0.62.0",
     "react-native-builder-bob": "^0.18.1",
     "react-native-web": "0.15.0",
     "react-native-web-linear-gradient": "^1.1.2",
@@ -88,7 +89,7 @@
   },
   "peerDependencies": {
     "react": "17.0.1",
-    "react-native": "0.64.0",
+    "react-native": "^0.62.0",
     "react-native-linear-gradient": "^2.5.6",
     "styled-components": "^5.2.1"
   },
