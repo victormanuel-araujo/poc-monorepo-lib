@@ -1,0 +1,5 @@
+
+{
+  "extends": "./tsconfig",
+  "exclude": ["example", ".storybook", "../../node_modules", "node_modules"]
+}

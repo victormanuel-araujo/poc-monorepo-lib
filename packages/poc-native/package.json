@@ -1,0 +1,47 @@
+{
+  "name": "@zerocoder/poc-native-lib",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "victormanuel.araujo@outlook.com <victormanuel.araujo@outlook.com>",
+  "homepage": "https://github.com/victormanuel-araujo/poc-monorepo-lib#readme",
+  "license": "ISC",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/index.d.ts",
+  "source": "src/index",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victormanuel-araujo/poc-monorepo-lib.git"
+  },
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/victormanuel-araujo/poc-monorepo-lib/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "react": "^17.0.2",
+    "react-native": "^0.65.1",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "styled-components": "^5.3.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

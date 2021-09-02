@@ -6,7 +6,7 @@ module.exports = {
       {
         extensions: ['.tsx', '.ts', '.js', '.json', '.jsx'],
         alias: {
-          '@theme': './src/theme',
+          '@theme': '../common/theme',
           '@components': './src/components',
           '@utils': './src/utils',
         },
