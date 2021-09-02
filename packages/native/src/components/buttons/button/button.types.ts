@@ -1,6 +1,5 @@
 import { ReactChild } from 'react'
 
-import { TextProps } from '@components'
 import { ThemeColorsName, ThemeColorsShade } from '@theme'
 import { TouchableOpacityProps } from 'react-native'
 
@@ -65,7 +64,7 @@ export interface ButtonProps extends TouchableOpacityProps {
   /**
    * Used to pass the text props from button component, to text component
    */
-  textProps?: TextProps
+  textProps?: any
 
   /**
    * Set a custom border width to the button

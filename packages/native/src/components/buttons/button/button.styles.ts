@@ -1,5 +1,5 @@
 import { ButtonProps } from '@components'
-import { getThemeColor, getPadding, ThemedProps } from '@theme'
+import { getThemeColor, ThemedProps } from '@theme'
 import { TouchableOpacity, View } from 'react-native'
 import styled, { css } from 'styled-components/native'
 
@@ -61,20 +61,21 @@ function color({ color, shade = 'base' }: ThemedProps<ButtonProps>) {
  * @param size - the button size: small | large
  */
 function sizes({ size }: ThemedProps<ButtonProps>) {
-  switch (size) {
-    case 'large':
-      return css`
-        padding: ${getPadding('md')} ${getPadding('md', 2)};
-      `
-    case 'small':
-      return css`
-        padding: ${getPadding('sm')} ${getPadding('sm', 2)};
-      `
-    default:
-      return css`
-        padding: ${getPadding('sm')} ${getPadding('sm', 2)};
-      `
-  }
+  return "padding: 24px"
+  // switch (size) {
+  //   case 'large':
+  //     return css`
+  //       padding: ${getPadding('md')} ${getPadding('md', 2)};
+  //     `
+  //   case 'small':
+  //     return css`
+  //       padding: ${getPadding('sm')} ${getPadding('sm', 2)};
+  //     `
+  //   default:
+  //     return css`
+  //       padding: ${getPadding('sm')} ${getPadding('sm', 2)};
+  //     `
+  // }
 }
 
 /**
